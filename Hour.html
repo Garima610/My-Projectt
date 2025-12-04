@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Check the console</h1>
+  <script>
+    const time=new Date().getHours();
+    let greeting="";
+    if(time>=6 && time<12){greeting=`Good Morning. It's ${new Date().getHours()}`} //use to add variables in string
+    else if(time>12 && time<=18){greeting=`Good Afternoon ${new Date().getHours()}`}
+    else(greeting=`Good Night ${new Date().getHours()}`)
+    console.log(greeting);
+  </script>
+</body>
+</html>
